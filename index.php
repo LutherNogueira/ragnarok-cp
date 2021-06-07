@@ -32,7 +32,7 @@
       <div class="row">
         <div class="mx-auto col-lg-5 col-md-7 col-10">
           <h1>Cadastre-se Agora</h1>
-          <p class="mb-3">Chame seus amigos e participe dessa jornada épica.</p> <a class="btn btn-secondary" href="singup.html">Register</a>
+          <p class="mb-3">Chame seus amigos e participe dessa jornada épica.</p> <a class="btn btn-secondary" href="singup.php">Register</a>
         </div>
       </div>
     </div>
