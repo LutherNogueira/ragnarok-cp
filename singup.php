@@ -1,3 +1,4 @@
+<!--registration page-->
 <!DOCTYPE html>
 <html>
 

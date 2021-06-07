@@ -1,3 +1,4 @@
+<!--Model for footer-->
 <div id="footer-cp" class="py-3">
     <div class="container">
       <div class="row">

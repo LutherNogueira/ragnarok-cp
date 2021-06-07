@@ -1,3 +1,4 @@
+<!--Create pages for table itens-->
 <?php 
               $sql = "SELECT COUNT(ID) AS total FROM "."item_db";
               $result = $connect->query($sql);

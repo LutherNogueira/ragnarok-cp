@@ -1,3 +1,4 @@
+<!--database get page-->
 <head>
   <?php include 'base.php';?>
  
