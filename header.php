@@ -16,11 +16,8 @@
               <li class="nav-item mx-1"> <a class="nav-link" href="https://github.com/LutherNogueira/">
                   <i class="fa fa-github fa-fw fa-lg"></i>
                 </a> </li>
-              <li class="nav-item mx-1"> <a class="nav-link" href="#">
+              <li class="nav-item mx-1"> <a class="nav-link" href="https://gitlab.com/naughty-weed">
                   <i class="fa fa-gitlab fa-fw fa-lg"></i>
-                </a> </li>
-              <li class="nav-item mx-1"> <a class="nav-link" href="#">
-                  <i class="fa fa-bitbucket fa-fw fa-lg"></i>
                 </a> </li>
             </ul>
           </div>
