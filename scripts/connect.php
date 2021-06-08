@@ -1,4 +1,6 @@
+<!-- faz conexão com banco-->
 <?php
+/* credenciais */
     $host= "localhost";
     $user= "ragnarok";
     $password= "ragnarok";

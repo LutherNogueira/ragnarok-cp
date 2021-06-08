@@ -6,14 +6,15 @@ include 'connect.php';
         . mysqli_connect_error());
 }
 
+/*pega informações do formulario*/
 $userid =  (isset($_POST['userid']) == TRUE ) ? $_POST['userid'] :  '';
 $user_pass = (isset($_POST['user_pass']) == TRUE ) ? $_POST['user_pass'] :  '';
 $email = (isset($_POST['email']) == TRUE ) ? $_POST['email'] :  '';
 
-// Performing insert query execution
-// here our table name is college
+/*query insert */
 $sql = "INSERT INTO login (userid,user_pass,sex,email) VALUES ('$userid','$user_pass','M','$email')";
-  
+
+/*retorna resultado positivo e confirma informações*/
 if(mysqli_query($connect, $sql)){
     echo "<h3>data stored in a database successfully." 
         . " Please browse your localhost php my admin" 
@@ -21,7 +22,7 @@ if(mysqli_query($connect, $sql)){
 
     echo nl2br("\n$userid\n $email\n "
         . "$user_pass");
-} else{
+} else{ /*retorno resultado negativo e mensagem de erro */
     echo "ERROR: Hush! Sorry $sql. " 
         . mysqli_error($connect);
 }
