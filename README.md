@@ -34,3 +34,7 @@
   Fron-end: HTML 5, CSS 3, Bootstrap e Pingendo
  </li>
 </ul>
+
+modelo = sql-files
+visão = arquivos pasta raiz
+controle = scripts
